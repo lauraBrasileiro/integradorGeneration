@@ -1,0 +1,62 @@
+*{
+    
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.fotoperfil{
+    padding: 10px;
+    height: 180px;
+    width: 180px;
+    border-radius: 50%;
+}
+
+.sobrenos{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.item {
+    width: 100%;
+    display: flex;
+    padding: 20px;
+}
+
+.direita {
+    flex-direction: row-reverse;
+}
+
+.direita .nomes {
+    text-align: right;
+}
+
+@media (min-width: 1000px) {
+    .item {
+        width: 50%;
+    }
+
+    .direita {
+        margin-top: 10%;
+    }
+}
+
+.bg-light{
+    background-color: #FBBFEC;
+}
+
+.card-impar{
+    margin-left: 100%;
+}
+
+.card-par{
+    margin-left: 0%;
+}
+
+.card-img-top{
+    border-radius: 50%;
+}
+#paragrafosobrenos{
+    text-align: center;
+}
+
